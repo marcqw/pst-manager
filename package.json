@@ -1,0 +1,29 @@
+{
+  "name": "pst-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcqw/pst-manager.git"
+  },
+  "keywords": [
+    "pst"
+  ],
+  "author": "William Marcq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcqw/pst-manager/issues"
+  },
+  "homepage": "https://github.com/marcqw/pst-manager#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "lowdb": "^7.0.1",
+    "nanoid": "^5.0.7",
+    "pst-extractor": "^1.9.0"
+  }
+}
